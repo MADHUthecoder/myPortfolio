@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Playfair+Display&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'DM Serif Display', serif;
+}
+.header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    background-color: transparent;
+    padding: 20px 10% ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navbar a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 0.3s;
+} 
+
+.navbar a:hover,
+.navbar a.active{
+    color: crimson;
+}
+
+.home{
+    background: rgb(0, 0, 0);
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 10%;
+}
+
+.home-content{
+    color: rgb(58, 137, 176);
+    max-width: 600px;
+    text-align: right;
+}
+.home-content h1{
+    font-size: 50px;
+    line-height: 1.5;
+}
+
+.home-content h3{
+    font-size: 30px;
+    color: rgb(230, 234, 236);
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: rgb(137, 233, 236);
+}
+.home-content p{
+    font-size: 16px;
+    margin-top: 20px;
+}
+.home-icons{
+    margin: 15px 0 25px ;
+}
+
+.home-icons a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.home-icons a:hover{
+    background:rgb(30, 116, 162) ;
+    color: white;
+    border-color: blue;
+    box-shadow: 0 0 10px rgb(157, 11, 11);
+}
+
+.btn{
+    padding: 12px 30px;
+    background: rgb(157, 11, 11);
+    border-radius: 30px;
+}
+
+.download-icon a:hover,
+.download-icon a.active{
+    color: crimson;    
+}
+
+.footer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:wrap;
+    padding:2rem 9%;
+    background: rgb(69, 74, 79);
+}
+.footer-icon-top{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding:.8rem;
+    background-color: white;
+    border-radius: .8rem;
+}
+#mail{
+    color: rgb(52, 244, 244);
+}
+.footer-text{
+    color: aliceblue;
+}
+.footer-icon-top i{
+    font-size: 3rem;
+    color:var(--second-bg-color);
+}
+.footer-icon-top:hover{
+    background-color:rgba(186, 219, 222, 0.657);
+}
